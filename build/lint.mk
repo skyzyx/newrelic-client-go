@@ -62,7 +62,7 @@ lint-commit: deps
 
 golangci: deps
 	@echo "=== $(PROJECT_NAME) === [ golangci-lint    ]: Linting using $(GOLINTER) ($(COMMIT_LINT_CMD))..."
-	@$(GOLINTER) run
+	@$(GOLINTER) run --allow-parallel-runners
 
 outdated: deps
 	@echo "=== $(PROJECT_NAME) === [ outdated         ]: Finding outdated deps with $(GO_MOD_OUTDATED)..."
