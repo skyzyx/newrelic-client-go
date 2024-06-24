@@ -8,14 +8,14 @@ require (
 	github.com/golangci/golangci-lint v1.31.0
 	github.com/google/go-querystring v1.0.0
 	github.com/goreleaser/goreleaser v0.143.0
-	github.com/hashicorp/go-retryablehttp v0.6.7
+	github.com/hashicorp/go-retryablehttp v0.7.7
 	github.com/imdario/mergo v0.3.11
 	github.com/llorllale/go-gitlint v0.0.0-20200802191503-5984945d4b80
 	github.com/mitchellh/mapstructure v1.3.3
 	github.com/newrelic/tutone v0.2.3
 	github.com/psampaz/go-mod-outdated v0.6.0
 	github.com/sirupsen/logrus v1.6.0
-	github.com/stretchr/testify v1.6.1
+	github.com/stretchr/testify v1.7.2
 	github.com/tomnomnom/linkheader v0.0.0-20180905144013-02ca5825eb80
 	golang.org/x/tools v0.0.0-20200812195022-5ae4c3c160a0
 	gotest.tools/gotestsum v0.5.3
